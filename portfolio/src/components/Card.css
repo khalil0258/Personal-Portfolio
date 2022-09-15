@@ -1,0 +1,76 @@
+.imageHolder {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+}
+.imageHolder img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 12;
+  background: linear-gradient(
+    10deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    white
+  ) !important;
+  opacity: 0.6;
+  color: white;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.card {
+  cursor: pointer;
+  width: 280px;
+  margin-bottom: 1rem !important;
+}
+
+.card:hover .overlay {
+  background: transparent !important;
+  color: transparent;
+}
+.desc {
+  padding: 0.5rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  transition: 0.2s ease-in-out;
+}
+.desc:hover {
+  background: linear-gradient(
+    10deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    white
+  ) !important;
+  color: white;
+}
+.desc p {
+  text-align: left;
+  font-size: 1.4;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0 !important;
+}
+
+@media (max-width: 668px) {
+  .card {
+    cursor: pointer;
+    width: 370px;
+    max-width: 90%;
+    margin-bottom: 1rem !important;
+  }
+}

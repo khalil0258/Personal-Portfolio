@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 50%;
+  transform: translateX(50%);
+  background-color: white;
+  z-index: 100;
+  box-shadow: rgba(196, 196, 196, 0.45) 0px 25px 20px -20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem;
+  height: auto;
+  border-bottom: 2px solid black;
+}
+.header-logo h3 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.header-links ul {
+  display: flex;
+  list-style: none;
+
+  align-items: center;
+}
+.header-links ul a {
+  text-decoration: none;
+  padding-right: 1.5rem;
+  color: black;
+  font-weight: 300;
+  transition: 0.2s ease-in-out;
+}
+.header-links ul a:hover {
+  font-weight: 400;
+}
+.header-Text button {
+  padding: 0.5rem 1.5rem;
+  background-color: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: 0.2s ease-in-out;
+}
+.header-Text button:hover {
+  background-color: black;
+  color: white;
+}
+.barIcon {
+  display: none;
+}
+@media (max-width: 668px) {
+  .close {
+    display: none !important;
+  }
+  .header-Text {
+    display: none;
+  }
+  .header-links ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0.9rem;
+    top: 3.2rem;
+
+    background-color: black;
+    padding: 1rem 0.5rem;
+
+    align-items: center;
+  }
+  .header-links ul a {
+    padding: 0;
+    color: white;
+  }
+  .header-links ul li {
+    margin: 0.4rem 0 !important;
+  }
+  .barIcon {
+    cursor: pointer;
+    display: flex;
+    font-size: 1.5rem;
+  }
+}

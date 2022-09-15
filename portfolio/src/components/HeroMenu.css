@@ -1,0 +1,100 @@
+.HeroMenu {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+   
+}
+.mainContainer h1 {
+  font-size: 4rem;
+
+  font-weight: 400;
+  color: transparent;
+  /* background-color: #3ab0ff; */
+  -webkit-text-stroke: 2px black;
+}
+.mainContainer h4 {
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin-bottom: 3rem !important;
+}
+.mainContainer p {
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.mainContainer h4 span {
+  color: #f05454;
+  font-weight: 400;
+}
+
+.btn-holder button {
+  padding: 0.5rem 2rem;
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight: 300;
+  font-size: 1.2rem;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  border: 0.5px solid black;
+  position: relative;
+}
+
+.btn-holder button:hover {
+  background-color: white;
+  color: rgb(24, 24, 24);
+}
+
+.iconsHold {
+  width: 100%;
+  margin: 0.5rem auto !important;
+}
+.iconsHold span {
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0 0.3rem !important;
+}
+
+.blur {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20rem;
+  left: 3rem;
+  background-color: #0096ff;
+  filter: blur(100px);
+  z-index: -1;
+}
+.blur2 {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10rem;
+  right: 20rem;
+  background-color: #f05454;
+  filter: blur(100px);
+  z-index: -1;
+}
+
+@media (max-width: 668px) {
+  .HeroMenu {
+    justify-content: center;
+    text-align: center;
+  }
+  .mainContainer h1 {
+    font-size: 2.4rem;
+  }
+  .mainContainer h4 {
+    font-size: 1rem;
+  }
+  .blur {
+    height: 90px;
+    width: 90px;
+
+    top: 30rem;
+  }
+}
