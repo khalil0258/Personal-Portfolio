@@ -1,0 +1,85 @@
+{
+  "color picker": {
+    "number": 2,
+    "description": [
+      "👉Get random color pallete.",
+      "💯Save pallete by name .",
+      "👉Copy color to clipboard."
+    ],
+    "BuiltBY": "HTML,CSS,JAVASCRIPT",
+    "link": "https://github.com/khalil0258/Color-pallete"
+  },
+  "gallery project": {
+    "number": 2,
+    "description": [
+      "👉Responsive Design",
+      "💯Amazing build using Pexels Api",
+      "💯You can search for picture.",
+      "👉First get random pictures"
+    ],
+    "BuiltBY": "HTML,CSS,JAVASCRIPT,PEXELS Api"
+  },
+  "insta clone": {
+    "number": 21,
+    "description": [
+      "🚀Hey everyone!! 🔥Excited to share my instagame Clone . It is a responsive application .🚀in this clone you can :",
+      " 👉SignIn with email/password or with facebook account.",
+      "👉Create new account . ",
+      " 💯Customize your profile( change profile picture ,change the userName and the name ,and add bio to profile).",
+      "👉Add posts. ❤️Like & comment in posts also reply on comments.",
+      " 👉Posts will show up in your profile .",
+      "💯Follow / unfollow other users and see their profile as well( see their posts and stories).",
+      "✉️Communicate with other users once u add follow them.",
+      "✉️U can also send them pictures .",
+      " ✉️See if the other user have seen your last messages .",
+      "👉Add stories . 👉See others stories .",
+      "👉Once you seen storie ,next time you enter to that storie ,it will takes u to the stories u didnt see.",
+      " 💯See next storie or previous one by clicking in arrow back or arrow forward button.",
+      "👉Stories and posts of your followings will show up in your home page.",
+      "💯Search for users with that header input."
+    ],
+    "link": "https://github.com/khalil0258/Instagram-clone",
+    "BuiltBY": "React.js, styedComponents,Mui ,redux ,firestore ,firebase storage,formik & yup,framer Motion, tailwind ,react router.. "
+  },
+  "linkedin clone": {
+    "number": 4,
+    "link": "https://github.com/khalil0258/linkedin-clone",
+    "description": [
+      "🚀Hey everyone!! 🔥Excited to share my linkedin Clone . It is a responsive application .🚀in this clone you can :",
+      "👉Create new account . ",
+      " 👉SignIn with google account.",
+      "👉Add posts. ❤️Like & comment in posts."
+    ],
+    "BuiltBY": "React.js, styedComponents,Mui ,redux ,firestore ,firebase storage,react router.. "
+  },
+  "portfolio": {
+    "number": 2,
+    "description": [
+      "🚀Hey everyone!! 🔥Excited to share this portfolio that i made :",
+      "👉this portfolio have nice  animations that make him smoother",
+      "nice ui/ux"
+    ],
+    "BuiltBY": "HTML,CSS,JAVASCRIPT,GSAP"
+  },
+  "slack clone": {
+    "number": 3,
+    "description": [
+      "🚀Hey everyone!! 🔥Excited to share my linkedin Clone . It is a responsive application .🚀in this clone you can :",
+      " 👉SignIn with google account.",
+      " 💯Create new rooms .",
+      "✉️Send messages in the rooms."
+    ],
+    "link": "https://github.com/khalil0258/slack-clone",
+    "BuiltBY": "React.js, styedComponents,Mui ,redux ,firestore ,firebase storage,react router.. "
+  },
+  "tesla clone": {
+    "number": 2,
+    "link": "https://github.com/khalil0258/tesla-clone",
+    "description": [
+      "🚀Hey everyone!! ",
+      "👉Responsive Design",
+      "💯Amazing Build"
+    ],
+    "BuiltBY": "React.js, styedComponents,Mui,react router.. "
+  }
+}

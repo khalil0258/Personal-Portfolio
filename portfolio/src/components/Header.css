@@ -13,9 +13,11 @@
   height: auto;
   border-bottom: 2px solid black;
 }
+
 .header-logo h3 {
   font-weight: 300;
   font-size: 1.2rem;
+  /* color: black; */
   cursor: pointer;
 }
 
@@ -50,24 +52,18 @@
 .barIcon {
   display: none;
 }
+
+/* ////////////////////// */
+.links-hight {
+  display: none;
+}
+
 @media (max-width: 668px) {
-  .close {
-    display: none !important;
-  }
   .header-Text {
     display: none;
   }
   .header-links ul {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 0.9rem;
-    top: 3.2rem;
-
-    background-color: black;
-    padding: 1rem 0.5rem;
-
-    align-items: center;
+    display: none;
   }
   .header-links ul a {
     padding: 0;
@@ -80,5 +76,35 @@
     cursor: pointer;
     display: flex;
     font-size: 1.5rem;
+  }
+  .links-hight {
+    display: block !important;
+    position: fixed;
+    padding: 4rem 0 1.2rem;
+    z-index: 99 !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+    background-color: black;
+    border: 1px solid white;
+  }
+  .close {
+    transform: translateY(-400px);
+  }
+  .links-hight ul {
+    text-align: center;
+    list-style: none;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 200;
+  }
+
+  .links-hight ul li {
+    margin-bottom: 0.3rem !important;
+  }
+  .links-hight a {
+    text-decoration: none;
+    color: white;
   }
 }

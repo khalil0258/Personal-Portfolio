@@ -7,8 +7,9 @@ body {
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
+  /* cursor: none !important; */
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -16,6 +17,7 @@ code {
 }
 
 * {
+  box-sizing: border-box;
   padding: o !important;
   margin: 0 !important;
 }
@@ -32,12 +34,35 @@ code {
   font-size: 1.8rem;
   width: fit-content;
   border-bottom: 2px solid black;
-  color: white;
-  background-color: #0096ff;
+  /* color: white;
+  background-color: #0096ff; */
   margin-bottom: 2.4rem !important;
 }
 @media (max-width: 668px) {
   .section-name {
     margin-inline: auto !important;
   }
+}
+
+/* scroll bar  */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey;
+ 
+  /* border-radius: 10px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  /* border-radius: 10px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(37, 37, 37);
 }

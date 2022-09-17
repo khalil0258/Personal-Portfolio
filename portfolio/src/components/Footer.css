@@ -1,0 +1,59 @@
+.footer {
+  background-color: black;
+  padding: 2rem 0;
+  color: white;
+}
+
+.footer h3 {
+  font-size: 3.5rem;
+  font-weight: 300;
+
+  margin-bottom: 2rem !important;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 1.2rem;
+}
+.flexi {
+  display: flex;
+  justify-content: space-between;
+}
+form input,
+textarea {
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  resize: none;
+  border-bottom: 1px solid white;
+}
+button {
+  padding: 0.5rem 2rem !important;
+  background-color: white;
+  color: black;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 2px;
+}
+button:hover {
+  background-color: rgb(227, 227, 227);
+}
+
+form input::placeholder,
+textarea::placeholder {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: gainsboro;
+}
+@media (max-width: 668px) {
+  .flexi {
+    flex-direction: column;
+    align-items: center;
+  }
+  form {
+    width: 70%;
+  }
+}

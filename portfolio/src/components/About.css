@@ -1,57 +1,78 @@
 .AboutSection {
   display: flex;
-  height: 100vh;
-
+  height: 90vh;
   justify-content: space-between;
+  width: 100%;
+  gap: 2rem !important;
   overflow: hidden;
 }
-
 .AboutSection div {
   width: 50%;
 }
+
 .AboutSection .right {
   display: flex;
-  /* background-color: red; */
+
   flex-direction: column;
 
   padding-top: 5rem;
-  /* justify-content: center; */
 }
 
 .left {
-  height: 75vh;
+  height: 100%;
   position: relative;
+}
+.right p {
+  line-height: 1.6;
 }
 .left .left-hold {
   width: 65%;
   position: absolute;
-  right: 1.7rem;
+  right: 0;
   top: 0;
+
   border: 10px solid black;
-  height: 100%;
+  height: 73%;
+  overflow-y: hidden;
 }
+
 .left img {
   position: absolute;
-  top: 2rem;
 
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+  right: 2.2rem;
+  top: -2rem;
+  width: 80%;
+  height: 96%;
+
+  object-fit: contain !important;
 }
 
+@media (max-width: 868px) {
+  .left .left-hold {
+    height: 53%;
+    top: 4rem;
+  }
+}
 @media (max-width: 668px) {
   .AboutSection {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    margin-bottom: 4rem !important;
+    height: fit-content;
   }
   .AboutSection div {
     width: 100%;
+  }
+  .left .left-hold {
+    height: 74%;
+    top: 0;
   }
   .AboutSection .right {
     text-align: center;
     align-items: center;
     padding-top: 0;
+  }
+  .left img {
+    height: 76%;
   }
 }

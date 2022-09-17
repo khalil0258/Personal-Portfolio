@@ -12,7 +12,7 @@
   gap: 1rem;
 }
 .services-container div {
-  padding: 1rem 0.2rem;
+  padding: 1rem 0.6rem;
   cursor: pointer;
   /* border: 1px solid black ; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -22,7 +22,7 @@
   margin-bottom: 0.4rem !important;
 }
 .services-container div p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 .services-container span {
